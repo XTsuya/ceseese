@@ -1524,7 +1524,7 @@
 
 #vc-spotify-progress-bar {
     position: relative;
-    color: var(--text-normal);
+    color: #1db954;
     width: 100%;
     margin: .5em 0 5px
 }
