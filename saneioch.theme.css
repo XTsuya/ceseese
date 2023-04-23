@@ -113,8 +113,11 @@
     --header-primary: rgb(255, 173, 186);
     --background-tertiary: rgba(255, 192, 203, 0);
     --channels-default: pink;
-    --primary-800: rgba(172, 142, 151, 0.863);;
-    
+    --primary-800: rgba(172, 142, 151, 0.863);
+    ;
+    --primary-500-hsl: rgba(0, 0, 0, 0) !important;
+    --bg-overlay-1: rgba(0, 0, 0, 0);
+
 }
 
 .iconBadge-32fMme.participating-2Z81oO {
@@ -436,25 +439,26 @@
     right: 0;
     bottom: -1px;
     left: 0;
-    
+
 }
 
-.modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {
+.modeSelected-3DmyhH .content-1gYQeQ,
+.modeSelected-3DmyhH:hover .content-1gYQeQ {
     background: rgba(238, 174, 202, 0.3);
-    background: linear-gradient(90deg, rgba(238,174,202,0.3) 0%, rgba(148,187,233,0.6) 100%);
+    background: linear-gradient(90deg, rgba(238, 174, 202, 0.3) 0%, rgba(148, 187, 233, 0.6) 100%);
     border: solid 1px pink;
 }
 
 .wrapper-NhbLHG:hover .content-1gYQeQ {
-    background: var(--bg-overlay-hover,var(--background-modifier-hover));
-    background: linear-gradient(90deg, rgba(238,174,202,0) 0%, rgba(148,187,233,0.6) 100%);
+    background: var(--bg-overlay-hover, var(--background-modifier-hover));
+    background: linear-gradient(90deg, rgba(238, 174, 202, 0) 0%, rgba(148, 187, 233, 0.6) 100%);
 }
 
-.wrapper-2vIMkT{
+.wrapper-2vIMkT {
     background-color: pink;
 }
 
-.button-3bklZh{
+.button-3bklZh {
     color: rgb(0, 153, 133);
 }
 
@@ -498,9 +502,10 @@
 .scroller-nxCRu_ {
     border-radius: 10px;
 }
+
 .menu-2TXYjN {
     background: rgba(90, 55, 55, 0.904);
-    border-radius: 10px;  
+    border-radius: 10px;
 }
 
 .theme-dark .rootWithShadow-2hdL2J {
@@ -685,6 +690,41 @@
 
 
 }
+
+/*spotify*/
+#vc-spotify-player {
+    padding: 0.375rem 0.5rem;
+    border-bottom: transparent;
+    --vc-spotify-green: #1db954;
+}
+
+#vc-spotify-info-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 3em;
+    gap: 0.5em;
+}
+
+.theme-dark #vc-spotify-player {
+    background: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*vendcore*/
 
@@ -1339,20 +1379,20 @@
 
 #vc-spotify-player {
     padding: .375rem .5rem;
-    border-bottom: transparent;
+    border-bottom: 1px solid var(--background-modifier-accent);
     --vc-spotify-green: #1db954
 }
 
 .theme-light #vc-spotify-player {
-    background: transparent;
+    background: var(--bg-overlay-3, var(--background-secondary-alt))
 }
 
 .theme-dark #vc-spotify-player {
-    background: transparent;
+    background: rgb(0, 0, 0, 0)
 }
 
 .vc-spotify-button {
-    background: transparent;
+    background: none;
     color: var(--interactive-normal);
     padding: 0;
     width: 32px;
