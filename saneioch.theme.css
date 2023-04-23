@@ -1542,9 +1542,9 @@
 #vc-spotify-progress-bar>[class^=slider] [class^=grabber] {
     height: 10px !important;
     width: 10px !important;
-    background-color: var(--interactive-normal);
+    background-color: #1db954;
     border-color: var(--interactive-normal);
-    color: var(--interactive-normal)
+    color: v#1db954
 }
 
 #vc-spotify-progress-text {
