@@ -1339,12 +1339,12 @@
 
 #vc-spotify-player {
     padding: .375rem .5rem;
-    border-bottom: 1px solid var(--background-modifier-accent);
+    border-bottom: transparent;
     --vc-spotify-green: #1db954
 }
 
 .theme-light #vc-spotify-player {
-    background: #1db954
+    background: transparent;
 }
 
 .theme-dark #vc-spotify-player {
@@ -1352,7 +1352,7 @@
 }
 
 .vc-spotify-button {
-    background: none;
+    background: transparent;
     color: var(--interactive-normal);
     padding: 0;
     width: 32px;
