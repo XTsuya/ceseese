@@ -1,0 +1,583 @@
+/**
+ * @name cinnamoroll for Cass ❤️
+ * @author xTsuya
+ * @version 1.0.0
+ * @description a cinnamoroll Theme
+ * @BDEditor xTsuya
+*/
+
+
+.childWrapper-1j_1ub {
+    -webkit-transition: background-color .15s ease-out, color .15s ease-out;
+    transition: background-color .15s ease-out, color .15s ease-out;
+    background-color: rgb(133, 255, 239);
+    color: red;
+}
+
+.homeIcon-r0w4ny path,
+.favoriteIcon-2kWmTP path {
+    display: none;
+}
+
+.homeIcon-r0w4ny,
+.favoriteIcon-2kWmTP {
+    min-width: 100%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.theme-dark .homeIcon-r0w4ny {
+    background-image: url('https://raw.githubusercontent.com/XTsuya/ceseese/main/Sin%20t%C3%ADtulo-1_Mesa%20de%20trabajo%201.png');
+}
+
+.theme-light .homeIcon-r0w4ny {
+    background-image: url('https://raw.githubusercontent.com/XTsuya/ceseese/main/Sin%20t%C3%ADtulo-1_Mesa%20de%20trabajo%201.png');
+}
+
+.wrapper-3kah-n.selected-1Drb7Z .homeIcon-r0w4ny,
+.wrapper-3kah-n:hover .homeIcon-r0w4ny {
+    background-image: url('https://raw.githubusercontent.com/XTsuya/ceseese/main/Sin%20t%C3%ADtulo-1_Mesa%20de%20trabajo%201.png');
+}
+
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+.wrapper-3kah-n:hover .childWrapper-1j_1ub {
+
+    background-color: rgb(133, 145, 255);
+}
+
+
+
+:root{
+    --channel-icon: #fcf379;
+    --text-muted: rgb(87, 36, 100);
+    --text-link: rgb(243, 200, 60);
+    --text-normal:rgb(255, 217, 0);
+    --profile-gradient-primary-color: black;
+    --scrollbar-auto-thumb: rgb(0, 0, 0); /*scrollbar mensajes*/
+    --scrollbar-auto-track: rgba(0, 0, 0, 0);/*fondo scrollbar mensajes*/
+    --scrollbar-thin-thumb: rgb(0, 0, 0); /*fondo scrollbar amigos canales*/
+    --scrollbar-thin-track: transparent; /*fondo scrollbar amigos canales*/
+    --color-perfil-abajo: rgba(255, 2, 2, 0);
+    --color-barra-widnows:rgba(255, 192, 203, 0);
+    --color-server: rgba(138, 136, 0, 0);
+    --color-chat-privado: rgb(0, 0, 0,0);
+    --color-conectados: rgba(0, 0, 255, 0);
+    --color-barra-arriba-home: rgba(0, 128, 0, 0);
+}
+
+.modeSelected-3DmyhH .icon-2W8DHg, .modeSelected-3DmyhH:hover .icon-2W8DHg, .modeUnread-3Cxepe .icon-2W8DHg, .modeUnread-3Cxepe:hover .icon-2W8DHg {
+    color: white;
+}
+
+
+/*_____configuracion____*/
+.contentRegionScroller-2_GT_N{
+    background-color: #414b72;
+}
+.sidebarRegionScroller-FXiQOh{
+    background-color: #282e47;
+}
+
+
+/*siempre_tranparente*/
+.sidebar-1tnWFu{
+    background: transparent;
+}
+.container-2cd8Mz{
+    background: transparent;
+}
+
+.layers-OrUESM {
+    margin: 0px;
+}
+
+/*contenedro*/
+.content-1SgpWY{
+    margin-left:0px;
+}
+
+
+/*/_/_/_/_/_//_/_/_/_/_/_/_/_/_/_/_/_/_//_/_/_/_/_/_/_/_/_/_/_//_*/
+/*-fondo-*/
+.bg-1QIAus {
+ background-image: url(https://i.giphy.com/media/2tNvsKkc0qFdNhJmKk/giphy.webp);
+ background-size: cover;
+}
+    /*background-image: url('https://i.imgur.com/TLnwb7g.png');
+    background: linear-gradient(-45deg, #ae71ff, #e73c7e, #50d0ff, #00a37d);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}*/
+
+
+
+.theme-dark .scroller-WSmht3{
+    background: transparent;
+}
+/*________servidores_________*/
+.wrapper-1_HaEi {
+    margin: 10px;
+    background-image: url('https://raw.githubusercontent.com/XTsuya/ceseese/main/cinamoroll%20Discord%20Cass/server.jpg');
+    border-radius: 10px;
+    margin-right: 10px;
+ 
+
+}
+/*_______caja completa_____________________*/
+
+/*___caja_perfil_muteo_etc____*/
+.theme-dark .container-YkUktl{
+    background: transparent
+}
+.panels-3wFtMD{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-image: url('https://raw.githubusercontent.com/XTsuya/ceseese/main/cinamoroll%20Discord%20Cass/canales-chat-voz.jpg');
+    border-radius: 10px;
+}
+/*_/_/_/_/_/_/_/_//_/_/_/_/_//_/_/_/_/_/_//_/_/_/_/_/_/_//_/_/_/_/_/_/*/
+
+/*___barra_arriba___*/
+.typeWindows-2-g3UY{
+    background-image: url(https://raw.githubusercontent.com/XTsuya/ceseese/main/cinamoroll%20Discord%20Cass/titulo.png);
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: left;
+    margin-left: 10px;
+}
+.winButton-3UMjdg{
+    margin-top: 5px;
+    border-radius: 50%;
+    width: 20px;
+    margin-left: 4px; 
+    color:white;
+
+}
+.wordmark-2u86JB {
+    pointer-events: none;
+    font-size: 0;
+    display: none;
+}
+.winButtonClose-3Q8ZH5{
+    background: rgb(134, 47, 47);
+}
+.winButtonClose-3Q8ZH5:hover{
+    background: red;
+    box-shadow: 0px 0px 10px red;
+}
+
+.winButtonMinMax-3RsPUg{
+    background: #5f6fa9;
+}
+.winButtonMinMax-3RsPUg:hover{
+    background: #b25fff;
+    box-shadow: 0px 0px 9px rgb(173, 85, 255);
+}
+
+
+
+/*____________home_______________________________________________________*/
+/*fondo chats*/
+.chatContent-3KubbW{
+    background-image: url('https://raw.githubusercontent.com/XTsuya/ceseese/main/cinamoroll%20Discord%20Cass/chats.jpg');
+    background-position: bottom;
+    background-position: right;
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+/*_iconos emojis_*/
+.button-2fCJ0o{
+    color: #5f6fa9;
+}
+/*icono +*/
+.attachButtonPlus-3IYelE{
+    fill: #5f6fa9;
+}
+
+.embedFull-1HGV2S {
+    border-left: 4px solid rgb(237, 199, 255);
+    background: rgb(56, 23, 107);
+}
+
+.scrollerInner-2PPAp2{
+    margin-bottom: 35px;
+}
+
+.markup-eYLPri{
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+    text-shadow: 3px 3px 4px #5f6fa9;
+}
+.embedFieldValue-3EHtvR{
+    color: black;
+    
+}
+.embedDescription-1DrJxZ{
+    color: bisque;
+}
+.attachment-1PZZB2{
+    background-color: #5f6fa9;
+    border-color: yellow;
+}
+
+.chat-2ZfjoI{
+    background: transparent;
+}
+/*buscar char*/
+.searchBar-2aylmZ{
+    background-color: #414b72;
+}
+
+
+/*chats privados*/
+.privateChannels-oVe7HL{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    position: relative;
+    background-image: url('https://raw.githubusercontent.com/XTsuya/ceseese/main/cinamoroll%20Discord%20Cass/canales-chat-voz.jpg');
+    background-position: bottom;
+    background-size: cover;
+    border-radius: 10px;
+    
+}
+
+/*____canales_de_texto_y_voz___*/
+
+.theme-dark .container-1NXEtd{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    position: relative;
+    background-image: url('https://raw.githubusercontent.com/XTsuya/ceseese/main/cinamoroll%20Discord%20Cass/canales-chat-voz.jpg');
+    background-position: bottom;
+    background-size: cover;
+    border-radius: 10px;
+    
+}
+.modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {
+    background: linear-gradient(150deg, rgba(255, 52, 194, 0.329), rgba(18, 49, 117, 0.466));
+    box-shadow: inset 0px 0px 4px#c78bff;
+
+}
+.wrapper-NhbLHG:hover .content-1gYQeQ {
+    background: linear-gradient(150deg, rgba(18, 49, 117, 0.466), rgba(255, 52, 194, 0.329));
+    box-shadow: 0px 0px 8px #d2a2ff;
+}
+
+.modeSelected-3DmyhH .name-28HaxV {
+    color: white;
+    text-shadow: 0px 0px 8px#0285ff;
+}
+
+.username-vAneIW {
+    color: #ffffffd3;
+}
+.listDefault-2F-w65 .clickable-1ctZ-H.selected-1oxcpH .username-vAneIW,
+.usernameSpeaking-3FKv6H {
+    color: rgb(255, 223, 43);
+    text-shadow: 0px 0px 4px rgb(251, 255, 0);
+}
+
+.avatarSpeaking-2pCGrZ {
+    -webkit-box-shadow: inset 0 0 0 2px rgb(253, 253, 253), inset 0 0 0 3px rgb(255, 255, 255);
+    box-shadow: inset 0 0 0 1px rgb(0, 217, 255), inset 0 0 0 1px rgb(255, 5, 5);
+    box-shadow: 0 0 0 1px rgb(89, 227, 252), 0 0 0 3px rgba(146, 239, 255, 0.603);
+}
+
+
+/*____________mienbros canal_______*/
+.content-1Tgc42{
+    background-color: #5f6fa9;
+}
+
+
+/*________mesnajes___________*/
+
+/*fondo encima*/
+.scroller-kQBbkU{
+    background-color: transparent;
+}
+.scrollerContent-2SW0kQ{
+    background: transparent;
+}
+
+/*_____________________caja de texto_____________________________________________*/
+
+.scrollableContainer-15eg7h{
+    background: transparent;
+}
+
+.channelTextArea-1FufC0{
+    background: rgba(255, 255, 255, 0.973);
+}
+.editor-H2NA06{
+    caret-color: #414b72
+}
+
+/*____________conectados_________________________________________________*/
+
+
+
+
+/*conectados_etc_front*/
+.peopleColumn-1wMU14{
+    background-image: url('https://raw.githubusercontent.com/XTsuya/ceseese/main/cinamoroll%20Discord%20Cass/chats.jpg');
+    background-size: cover;
+    background-position: top;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/*barra_enlinea_todo_etc*/
+.theme-dark .themed-Hp1KC_{
+    background-image: url('https://raw.githubusercontent.com/XTsuya/ceseese/main/cinamoroll%20Discord%20Cass/chats.jpg');
+    background-size: cover;
+    background-position: top;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.container-ZMc96U{
+    margin-right: 10px;
+    width: inherit;
+}
+.content-1jQy2l:before{
+    
+    box-shadow: transparent;
+}
+.title-31SJ6t{
+    margin-right: 10px;
+}
+/*______Activo_ahora______*/
+
+.nowPlayingColumn-1eCBCN{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-image: url('https://raw.githubusercontent.com/XTsuya/ceseese/main/cinamoroll%20Discord%20Cass/activos-mienbros.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 98%;
+}
+.members-3WRCEx{
+    background-image: url('https://raw.githubusercontent.com/XTsuya/ceseese/main/cinamoroll%20Discord%20Cass/mienbros.png');
+    background-size: contain;
+    background-position: bottom; 
+}
+
+.container-1oAagU{
+    border-radius: 10px;
+    margin-right:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    background-size: cover;
+    background-position: bottom;
+}
+/*_____tajetas_activos_ahora______*/
+.wrapper-2RrXDg{
+    background: #414b7298;
+}
+.theme-dark .outer-2JOHae.active-1W_Gl9, .theme-dark .outer-2JOHae.interactive-2zD88a:hover {
+    background-color: #282e47;
+}
+.peopleListItem-u6dGxF.active-2UF8Zh, .peopleListItem-u6dGxF:hover {
+    background: #282e47;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 8px;
+    border-color: transparent;
+    margin: 0 10px 0 20px;
+    padding: 16px 10px;
+}{
+
+}
+/*____tarjetas_actividad_spotify_juegos_etc___*/
+.section-3G9aLW ,.theme-dark .inset-SbsSFp{
+    background: #8da4f7;
+}
+
+/*______miembros_sevidores________________________________*/
+
+/*__mienbros__*/
+.member-48YF_l{
+    background-color: #5f6fa9;
+}
+
+.members-3WRCEx{
+    border-radius: 10px;
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: bottom;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+
+.link-39sEB3{
+    color: rgb(230, 248, 127);
+}
+
+.linkButtonIcon-7rsZcu {
+    width: 24px;
+    height: 24px;
+    color: rgb(255, 255, 116);
+}
+
+/*__fondo__*/
+
+.container-2o3qEW{
+    z-index: 99;
+    background-image: url('https://raw.githubusercontent.com/XTsuya/ceseese/main/cinamoroll%20Discord%20Cass/activos-mienbros.jpg');
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: inherit;
+}
+/*___perfdil_amigo_chat___------------------------------------*/
+.userPanelInnerThemed-3YO1BB{
+    background-color: transparent;
+}
+.panelBanner-2KnOzw{
+    border-radius: 10px;
+}
+
+.userProfileInner-1ngKnf{
+    background: #414b72;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 98%;
+    border-radius: 10px;
+}
+.profileColors-2AgAV4{
+    background: transparent;
+}
+
+/*_______cartas dentro de perfil_____*/
+
+.overlayBackground-2aa7wt{
+    background: #5f6fa9;
+}
+/*_/_/_/_/_/_//_/_/_/_/_//_/_/_/_/_/_/_//_/_/_/_/_//*/
+
+/*________buscar o iniciar conversacion_________*/
+
+.searchBar-3TnChZ .searchBarComponent-3N7dCG{
+    background: #414b72;
+    color: #8da4f7;
+}
+
+/*_______spotify juntos_______*/
+.listeningAlong-6YvYsc{
+    background: transparent;
+}
+
+/*____________compartir pantalla________________*/
+.theme-dark .panel-2ZFCRb{
+    background: transparent;
+}
+/*_______conectado a chat________*/
+.container-1zzFcN {
+    background: transparent;
+}
+
+.container-q97qHp{
+    color:aliceblue;
+}
+
+.name-28HaxV{
+    color: aquamarine;
+}
+
+.searchBar-jGtisZ{
+    background-color: #414b72;
+}
+
+.search-2Mwzzq .DraftEditor-root .public-DraftEditorPlaceholder-root{
+    color: #8da4f7;
+}
+.icon-18rqoe{
+    color: #8da4f7;
+}
+.button-12Fmur{
+    color: #d9e1ff;
+}
+.button-1EGGcP.buttonColor-3bP3fX, .button-1EGGcP .buttonColor-3bP3fX{
+    color: #414b72;
+    background-color: rgb(214, 194, 126);
+    border-radius: 8px
+}
+
+.interactive-26HRN_:focus-within, .interactive-26HRN_:hover{
+    background: linear-gradient(141deg, rgb(248, 137, 215) 0%, rgba(34,110,170,1) 100%);
+}
+
+
+.icon-2xnN2Y{
+    color:rgb(199, 152, 0)
+}
+.clickable-ZD7xvu .icon-2xnN2Y{
+    color: rgb(255, 217, 0);
+}
+.overflow-1wOqNV{
+    color: rgb(238, 236, 107);
+    font-weight: 600;
+    text-shadow: 0px 0px 2px black;
+}
+
+.selected-26oxtA{
+    background: #5f6fa9; 
+    box-shadow: inset 0px 0px 9px #d8aeff;
+}
+
+        
+/*___*/
+/*spotify*/
+#vc-spotify-player {
+    padding: 0.375rem 0.5rem;
+    border-bottom: transparent;
+    --vc-spotify-green: #1db954;
+}
+
+#vc-spotify-info-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 3em;
+    gap: 0.5em;
+}
+
+.theme-dark #vc-spotify-player {
+    background: transparent;
+}
