@@ -1,18 +1,32 @@
 /**
- * @name cinnamoroll for Cass ❤️
+ * @name cinnamoroll for Casa ❤️
  * @author xTsuya
- * @version 1.0.0
+ * @version 1.0.1
  * @description a cinnamoroll Theme
  * @BDEditor xTsuya
 */
-
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css');
+@import url('https://discordstyles.github.io/SoftX/RadialGlow.css');
+@import url('https://discordstyles.github.io/SoftX/VerticalUserArea.css');
 
 .childWrapper-1j_1ub {
     -webkit-transition: background-color .15s ease-out, color .15s ease-out;
     transition: background-color .15s ease-out, color .15s ease-out;
-    background-color: rgb(133, 255, 239);
+    background-color: #8da4f7;
     color: red;
 }
+
+
+.wrapper-3Un6-K[aria-label*="Idle" i], .wrapper-3Un6-K[aria-label*="Inaktiv" i], .wrapper-3Un6-K[aria-label*="Abwesend" i], .wrapper-3Un6-K[aria-label*="Ausente" i], .wrapper-3Un6-K[aria-label*="Inactif" i], .wrapper-3Un6-K[aria-label*="U mirovanju" i], .avatarWrapper[data-status="idle"] .wrapper-3Un6-K {
+    box-shadow: 0 0 10px var(--rs-idle-color);
+}
+.wrapper-3Un6-K[aria-label*="Do Not disturb" i], .wrapper-3Un6-K[aria-label*="Vil ikke forstyrres" i], .wrapper-3Un6-K[aria-label*="Bitte nicht stören" i], .wrapper-3Un6-K[aria-label*="No molestar" i], .wrapper-3Un6-K[aria-label*="Ne pas déranger" i], .wrapper-3Un6-K[aria-label*="Ne uznemiravaj" i], .avatarWrapper[data-status=dnd] .wrapper-3Un6-K {
+    box-shadow: 0 0 10px var(--rs-dnd-color);
+}
+.wrapper-3Un6-K[aria-label*="Online" i], .wrapper-3Un6-K[aria-label*="Inaktiv" i], .wrapper-3Un6-K[aria-label*="Abwesend" i], .wrapper-3Un6-K[aria-label*="En Línea" i], .wrapper-3Un6-K[aria-label*="Inactif" i], .wrapper-3Un6-K[aria-label*="U mirovanju" i], .avatarWrapper[data-status="idle"] .wrapper-3Un6-K {
+    box-shadow: 0 0 10px rgb(47, 255, 47);
+}
+
 
 .homeIcon-r0w4ny path,
 .favoriteIcon-2kWmTP path {
